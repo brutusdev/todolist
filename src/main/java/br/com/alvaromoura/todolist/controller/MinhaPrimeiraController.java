@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MinhaPrimeiraController {
     
     @GetMapping("/")
-    public String PrimeiraMEnsagem() {
+    public String PrimeiraMensagem() {
         return "Funcionou";
     }
 }
